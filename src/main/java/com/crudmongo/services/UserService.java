@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.crudmongo.domain.User;
-import com.crudmongo.execption.ObjectNotFoundException;
 import com.crudmongo.repository.UserRepository;
+import com.crudmongo.services.exception.ObjectNotFoundException;
 
 @Service
 public class UserService {

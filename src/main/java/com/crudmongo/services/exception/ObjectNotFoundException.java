@@ -1,4 +1,4 @@
-package com.crudmongo.execption;
+package com.crudmongo.services.exception;
 
 public class ObjectNotFoundException extends RuntimeException{
 	private static final long serialVersionUID = 1L;
