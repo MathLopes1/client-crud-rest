@@ -1,7 +1,5 @@
-package com.crudmongo.resource;
+package com.crudmongo.controller;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
