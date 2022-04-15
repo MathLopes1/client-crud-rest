@@ -1,4 +1,4 @@
-package com.matheuslopes.crudmongo.domain;
+package com.crudmongo.domain;
 
 import java.io.Serializable;
 import java.util.Objects;
