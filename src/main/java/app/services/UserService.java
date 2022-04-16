@@ -1,4 +1,4 @@
-package com.crudmongo.services;
+package app.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,9 +6,9 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.crudmongo.domain.User;
-import com.crudmongo.repository.UserRepository;
-import com.crudmongo.services.exception.ObjectNotFoundException;
+import app.domain.User;
+import app.repository.UserRepository;
+import app.services.exception.ObjectNotFoundException;
 
 @Service
 public class UserService {

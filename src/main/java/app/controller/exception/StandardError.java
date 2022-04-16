@@ -1,4 +1,4 @@
-package com.crudmongo.controller.exception;
+package app.controller.exception;
 
 import java.io.Serializable;
 
