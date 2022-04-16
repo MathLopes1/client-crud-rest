@@ -45,4 +45,10 @@ public class UserController {
 		User user = service.findById(id);
 		return ResponseEntity.ok().body(new UserDTO(user));
 	}	
+	
+	@RequestMapping(value="/{id}", method=RequestMethod.DELETE)
+	public ResponseEntity<Void> delete(@PathVariable String id) {
+		service.delete(id);
+		return ResponseEntity.noContent().build();
+	}	
 }
