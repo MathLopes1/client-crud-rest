@@ -30,6 +30,11 @@ public class UserService {
 		return user.orElseThrow(() -> new ObjectNotFoundException("object not found"));
 	}
 	
+	public void delete(String id) {
+		this.findById(id);
+		repo.deleteById(id);
+	}
+	
 	public User fromDTO(UserDTO userDto) {
 		return new User(userDto.getId(), userDto.getName(), userDto.getEmail());
 	}
