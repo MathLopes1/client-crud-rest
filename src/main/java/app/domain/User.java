@@ -1,4 +1,4 @@
-package com.crudmongo.domain;
+package app.domain;
 
 import java.io.Serializable;
 import java.util.Objects;

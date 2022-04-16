@@ -1,4 +1,4 @@
-package com.crudmongo.config;
+package app.config;
 
 import java.util.Arrays;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
-import com.crudmongo.domain.User;
-import com.crudmongo.repository.UserRepository;
+import app.domain.User;
+import app.repository.UserRepository;
 
 @Configuration
 public class Instantiation implements CommandLineRunner {

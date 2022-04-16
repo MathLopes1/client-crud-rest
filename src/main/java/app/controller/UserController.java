@@ -1,4 +1,4 @@
-package com.crudmongo.controller;
+package app.controller;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.crudmongo.domain.User;
-import com.crudmongo.dto.UserDTO;
-import com.crudmongo.services.UserService;
+import app.domain.User;
+import app.dto.UserDTO;
+import app.services.UserService;
 
 @RestController
 @RequestMapping(value="/users")

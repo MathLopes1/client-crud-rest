@@ -1,8 +1,8 @@
-package com.crudmongo.dto;
+package app.dto;
 
 import java.io.Serializable;
 
-import com.crudmongo.domain.User;
+import app.domain.User;
 
 public class UserDTO implements Serializable{
 	private static final long serialVersionUID = 1L;

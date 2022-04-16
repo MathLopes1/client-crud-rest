@@ -1,4 +1,4 @@
-package com.crudmongo.controller.exception;
+package app.controller.exception;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.crudmongo.services.exception.ObjectNotFoundException;
+import app.services.exception.ObjectNotFoundException;
 
 @ControllerAdvice
 
